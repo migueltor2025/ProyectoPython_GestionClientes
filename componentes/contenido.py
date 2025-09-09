@@ -115,7 +115,7 @@ def mostrar_contenido(tipo, contenido):
         metricas.pack(fill=X, pady=10)
 
         ttk.Label(metricas, text=f"Total clientes: {len(clientes)}", font=("Arial", 12), bootstyle="success").pack(side=LEFT, padx=10)
-        ttk.Label(metricas, text="Correos únicos: 4", font=("Arial", 12), bootstyle="info").pack(side=LEFT, padx=10)
+        #ttk.Label(metricas, text="Correos únicos: 4", font=("Arial", 12), bootstyle="info").pack(side=LEFT, padx=10)
         ttk.Label(metricas, text="Última actualización: Hoy", font=("Arial", 12), bootstyle="warning").pack(side=LEFT, padx=10)
 
         # Tabla de clientes
